@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -10,8 +11,8 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #1B2944;
+    font-family: "Roboto", sans-serif;
+    background: #1b2944;
     color: #fff;
 }
 
@@ -21,9 +22,8 @@ a {
 }
 
 a:hover {
-    color: #FFC41D;
-    transition: ease-in .2s;
-    ;
+    color: #ffc41d;
+    transition: ease-in 0.2s;
 }
 
 .container {
@@ -45,9 +45,9 @@ a:hover {
     line-height: 14px;
     text-align: center;
     text-transform: uppercase;
-    color: #1B2944;
-    background: #FFBB01;
-    box-shadow: 0px 4px 0px #B68500;
+    color: #1b2944;
+    background: #ffbb01;
+    box-shadow: 0px 4px 0px #b68500;
     border-radius: 5px 5px 10px 10px;
     padding: 24px 43px;
     cursor: pointer;
@@ -55,9 +55,9 @@ a:hover {
 
 .button:hover {
     background: #f0a00d;
-    box-shadow: 0px 4px 2px #B68500;
-    transition: .2s;
-    color: #1B2944;
+    box-shadow: 0px 4px 2px #b68500;
+    transition: 0.2s;
+    color: #1b2944;
 }
 
 .title {
@@ -68,7 +68,6 @@ a:hover {
 
     @media screen and (max-width: 750px) {
         text-align: center;
-
     }
 
     @media screen and (max-width: 450px) {
@@ -101,7 +100,6 @@ a:hover {
 
         @media screen and (max-width: 450px) {
             margin-top: 29px;
-
         }
     }
 
@@ -117,7 +115,6 @@ a:hover {
 
         @media screen and (max-width: 450px) {
             margin: 55px auto 42px auto;
-
         }
     }
 
@@ -125,7 +122,6 @@ a:hover {
         @media screen and (max-width: 750px) {
             order: 2;
             margin: 0 auto;
-
         }
     }
 
@@ -133,7 +129,6 @@ a:hover {
         @media screen and (max-width: 750px) {
             order: 1;
             margin: 0 auto;
-
         }
     }
 
@@ -143,7 +138,7 @@ a:hover {
         font-weight: normal;
         font-size: 24px;
         line-height: 28px;
-        color: #FFBB01;
+        color: #ffbb01;
 
         @media screen and (max-width: 450px) {
             margin: 20px 0 0 0;
@@ -188,7 +183,6 @@ a:hover {
 
         @media screen and (max-width: 750px) {
             text-align: center;
-
         }
 
         @media screen and (max-width: 450px) {
@@ -206,18 +200,16 @@ a:hover {
 
         @media screen and (max-width: 450px) {
             max-width: 115px;
-
         }
     }
 }
 
 .services {
-    background: #141F35;
+    background: #141f35;
     padding: 64px 0 92px 0;
 
     @media screen and (max-width: 450px) {
         padding: 60px 0;
-
     }
 
     &__title {
@@ -233,7 +225,6 @@ a:hover {
         @media screen and (max-width: 750px) {
             justify-content: center;
             grid-template-columns: repeat(2, minmax(200px, 304px));
-
         }
 
         @media screen and (max-width: 450px) {
@@ -251,7 +242,7 @@ a:hover {
 
         @media screen and (max-width: 450px) {
             font-size: 18px;
-            line-height: 28px
+            line-height: 28px;
         }
     }
 
@@ -268,7 +259,6 @@ a:hover {
             line-height: 28px;
         }
     }
-
 }
 
 .footer {
@@ -276,7 +266,6 @@ a:hover {
 
     @media screen and (max-width: 450px) {
         padding: 29px 0;
-
     }
 
     &__title {
@@ -284,7 +273,6 @@ a:hover {
 
         @media screen and (max-width: 750px) {
             text-align: center;
-
         }
     }
 
@@ -295,12 +283,10 @@ a:hover {
 
         @media screen and (max-width: 750px) {
             flex-direction: column;
-
         }
 
         @media screen and (max-width: 450px) {
             margin-top: 60px;
-
         }
     }
 
@@ -308,8 +294,8 @@ a:hover {
         padding: 47px 39px;
         max-width: 458px;
         display: inline-block;
-        background: #FFFFFF;
-        box-shadow: -5px 5px 0px #FFC41D;
+        background: #ffffff;
+        box-shadow: -5px 5px 0px #ffc41d;
         border-radius: 5px;
 
         @media screen and (max-width: 750px) {
@@ -319,7 +305,7 @@ a:hover {
 
     &__forms:hover {
         box-shadow: -5px 5px 2px #f0a00d;
-        transition: .2s;
+        transition: 0.2s;
     }
 
     s &__form-title {
@@ -344,7 +330,7 @@ a:hover {
         display: block;
         max-width: 380px;
         height: 70px;
-        background: #F8F8F8;
+        background: #f8f8f8;
         box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
         border-radius: 5px;
 
@@ -356,8 +342,6 @@ a:hover {
 
     &__contacts {
         margin-left: 20px;
-
-
     }
 
     &__button {
@@ -387,7 +371,6 @@ a:hover {
         @media screen and (max-width: 450px) {
             flex-direction: column;
         }
-
     }
 
     &__social {
@@ -395,7 +378,6 @@ a:hover {
             max-width: 458px;
             justify-content: space-between;
             margin: 40px auto 0 auto;
-
         }
 
         @media screen and (max-width: 450px) {
@@ -427,7 +409,6 @@ a:hover {
             font-size: 18px;
             line-height: 21px;
         }
-
     }
 
     &__subtext {
