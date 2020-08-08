@@ -88,6 +88,45 @@ a:hover {
     width: 20px;
 }
 
+.links__soclink {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+
+    &_git {
+        background-image: url(../img/ico_soc/github.svg);
+    }
+
+    &_git:hover {
+        background-image: url(../img/ico_soc/github-2.svg);
+    }
+
+    &_tel {
+        background-image: url(../img/ico_soc/telegram-app.svg);
+    }
+
+    &_tel:hover {
+        background-image: url(../img/ico_soc/telegram-app-2.svg);
+    }
+
+    &_insta {
+        background-image: url(../img/ico_soc/instagram.svg);
+    }
+
+    &_insta:hover {
+        background-image: url(../img/ico_soc/instagram-2.svg);
+    }
+
+    &_fb {
+        background-image: url(../img/ico_soc/facebook.svg);
+    }
+
+    &_fb:hover {
+        background-image: url(../img/ico_soc//facebook-2.svg);
+    }
+}
+
 .soclinks+.soclinks {
     margin-left: 20px;
 }
@@ -213,6 +252,75 @@ a:hover {
     }
 
     &__title {
+        margin: 0;
+    }
+
+    &__description {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 304px));
+        grid-gap: 60px 15px;
+
+        @media screen and (max-width: 750px) {
+            justify-content: center;
+            grid-template-columns: repeat(2, minmax(200px, 304px));
+        }
+
+        @media screen and (max-width: 450px) {
+            margin-top: 60px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__dcr-title {
+        margin: 21px 0 0 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        @media screen and (max-width: 450px) {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+
+    &__text {
+        margin: 16px 0 0 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+
+        @media screen and (max-width: 450px) {
+            margin: 6px 0 0 0;
+            font-size: 14px;
+            line-height: 28px;
+        }
+    }
+}
+
+.projects {
+    background: #141f35;
+    padding: 0px 0 92px 0;
+
+    @media screen and (max-width: 450px) {
+        padding: 60px 0;
+    }
+
+    &__imgg {
+        width: 100%;
+        border-radius: 2px;
+        filter: grayscale(100%);
+    }
+
+    &__imgg:hover {
+        transition: .5s;
+        filter: none;
+    }
+
+    &__title {
+        font-size: 36px;
         margin: 0;
     }
 

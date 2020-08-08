@@ -1,0 +1,29 @@
+.video__title {
+  margin: 0;
+  max-width: 322px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  position: absolute;
+  left: 30px;
+  bottom: 61px;
+  cursor: pointer;
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .video__title {
+    bottom: 66px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__title {
+    bottom: 45px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}

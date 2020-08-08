@@ -1,0 +1,24 @@
+@import url("_arakulskij/additional__item_arakulskij.css");
+@import url("_cherepovec/additional__item_cherepovec.css");
+@import url("_nikola/additional__item_nikola.css");
+@import url("_novorosijsk/additional__item_novorosijsk.css");
+.additional__item {
+  position: relative;
+  width: 284px;
+  height: 330px;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.additional__item:hover::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 5px;
+}
