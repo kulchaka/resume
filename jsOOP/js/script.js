@@ -38,10 +38,10 @@ const headers = {
   authorization: '7390d4ed-f62e-4546-96f8-a025e7f7b13e',
 };
 
-const apiCards = new Api('https://praktikum.tk/cohort12/cards', headers);
+const apiCards = new Api('https://nomoreparties.co/cohort12/cards', headers);
 
 //?? - UserInfo
-const apiUser = new Api('https://praktikum.tk/cohort12/users/me', headers);
+const apiUser = new Api('https://nomoreparties.co/cohort12/users/me', headers);
 
 
 //!!------------------------

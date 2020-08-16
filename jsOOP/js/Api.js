@@ -17,7 +17,7 @@ class Api {
     }
 
     sendCard(name, link) {
-        return fetch('https://praktikum.tk/cohort12/cards', {
+        return fetch('https://nomoreparties.co/cards', {
                 method: 'POST',
                 headers: {
                     authorization: '7390d4ed-f62e-4546-96f8-a025e7f7b13e',
@@ -57,7 +57,7 @@ class Api {
     }
 
     setAvatar(avatar) {
-        return fetch('https://praktikum.tk/cohort12/users/me/avatar', {
+        return fetch('https://nomoreparties.co/cohort12/users/me/avatar', {
                 method: 'PATCH',
                 headers: {
                     authorization: '7390d4ed-f62e-4546-96f8-a025e7f7b13e',
