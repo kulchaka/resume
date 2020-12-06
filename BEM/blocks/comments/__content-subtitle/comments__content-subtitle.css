@@ -1,9 +1,0 @@
-.comments__content-subtitle {
-  max-width: 640px;
-  margin: 48px auto 0 auto;
-}
-@media screen and (max-width: 768px) {
-  .comments__content-subtitle {
-    margin-top: 24px;
-  }
-}

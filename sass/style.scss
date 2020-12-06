@@ -127,7 +127,7 @@ a:hover {
     }
 }
 
-.soclinks+.soclinks {
+.soclinks + .soclinks {
     margin-left: 20px;
 }
 
@@ -155,6 +155,11 @@ a:hover {
         @media screen and (max-width: 450px) {
             margin: 55px auto 42px auto;
         }
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
     }
 
     &__text {
@@ -315,7 +320,7 @@ a:hover {
     }
 
     &__imgg:hover {
-        transition: .5s;
+        transition: 0.5s;
         filter: none;
     }
 
@@ -493,7 +498,7 @@ a:hover {
         }
     }
 
-    &__tel+&__tel {
+    &__tel + &__tel {
         margin-left: 125px;
 
         @media screen and (max-width: 750px) {
@@ -541,7 +546,7 @@ a:hover {
         }
     }
 
-    &__subtext_soc+&__subtext_soc {
+    &__subtext_soc + &__subtext_soc {
         margin-left: 41px;
 
         @media screen and (max-width: 750px) {

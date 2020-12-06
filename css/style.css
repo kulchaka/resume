@@ -188,6 +188,14 @@ a:hover {
   }
 }
 
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 @media screen and (max-width: 750px) {
   .header__text {
     -webkit-box-ordinal-group: 3;
@@ -383,8 +391,8 @@ a:hover {
 }
 
 .projects__imgg:hover {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   -webkit-filter: none;
           filter: none;
 }
