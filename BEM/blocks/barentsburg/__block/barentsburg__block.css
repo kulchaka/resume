@@ -1,0 +1,6 @@
+.barentsburg__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 48px;
+}

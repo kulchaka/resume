@@ -1,0 +1,8 @@
+.place__url-heading {
+  margin: 0 0 16px 0;
+}
+@media screen and (max-width: 375px) {
+  .place__url-heading {
+    display: none;
+  }
+}

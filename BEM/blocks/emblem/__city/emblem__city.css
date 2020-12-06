@@ -1,0 +1,10 @@
+.emblem__city {
+  max-width: 208px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #cccccc;
+}
