@@ -1,0 +1,15 @@
+.comment__quote {
+  margin: 42px auto 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+@media screen and (max-width: 768px) {
+  .comment__quote {
+    text-align: center;
+    order: 1;
+    margin-top: 24px;
+  }
+}

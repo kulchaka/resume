@@ -1,0 +1,10 @@
+@import url("__title/lead__title.css");
+@import url("__caption/lead__caption.css");
+@import url("__img-block/lead__img-block.css");
+@import url("__image/lead__image.css");
+@import url("__subtitle/lead__subtitle.css");
+@media screen and (max-width: 768px) {
+  .page .lead {
+    max-width: 100%;
+  }
+}

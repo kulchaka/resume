@@ -1,0 +1,10 @@
+@import url("__block/barentsburg__block.css");
+@import url("__coord/barentsburg__coord.css");
+@import url("__map/barentsburg__map.css");
+@import url("__text/barentsburg__text.css");
+@import url("__title/barentsburg__title.css");
+@import url("__url-heading/barentsburg__url-heading.css");
+@import url("__urls/barentsburg__urls.css");
+.barentsburg {
+  display: block;
+}
