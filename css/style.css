@@ -516,9 +516,20 @@ a:hover {
   border-radius: 5px;
 }
 
+.footer__form-status {
+  color: #141f35;
+}
+
+
 @media screen and (max-width: 750px) {
   .footer__forms {
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__forms {
+    min-width: 100%;
   }
 }
 
